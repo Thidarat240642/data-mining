@@ -1,0 +1,20 @@
+@relation jj
+
+@attribute outlook{sunny,overcast,rainy}
+@attribute temperature{hot,cool,mild}
+@attribute humidity{normal,high}
+@attribute windy{false,true}
+@attribute play{yes,no}
+
+@data
+sunny,hot,normal,false,no
+sunny,hot,high,true,no
+sunny,mild,high,false,no
+overcast,hot,high,false,no
+overcast,hot,normal,false,no
+rainy,cool,normal,false,no
+rainy,mild,high,true,no
+rainy,mild,high,false,no
+rainy,mild,normal,false,yes
+sunny,mild,normal,    
+

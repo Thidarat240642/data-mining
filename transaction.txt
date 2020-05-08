@@ -1,0 +1,18 @@
+@relation transaction
+
+@attribute Apple{yes,?}
+@attribute Beer{yes,?}
+@attribute Cereal{yes,?}
+@attribute Diaper{yes,?}
+@attribute Eggs{yes,?}
+
+@data
+yes,?,yes,yes,?
+?,yes,yes,?,yes
+yes,yes,yes,yes,yes
+yes,yes,yes,?,yes
+?,yes,?,?,yes
+?,yes,yes,yes,yes
+yes,?,yes,yes,?
+?,?,yes,?,yes
+

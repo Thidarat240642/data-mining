@@ -1,0 +1,14 @@
+@relation ex9
+
+@attribute Apple{yes,?}
+@attribute Cereal{yes,?}
+@attribute Diaper{yes,?}
+@attribute Beer{yes,?}
+@attribute Eggs{yes,?}
+
+@data
+yes,yes,yes,?,?
+?,yes,?,yes,yes
+yes,yes,?,yes,yes
+?,?,?,yes,yes
+
